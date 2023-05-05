@@ -1,0 +1,32 @@
+body{
+  background-color: #192333;
+    color: white;
+}
+label.logo{
+  float: left;
+  padding: 10px;
+  font-size: 40px;
+}
+nav{
+  display: flex;
+  background-color: #0b1321;
+  height: 65px;
+  width: 100%;
+  border: 1px solid white;
+}
+li{
+  float: right;
+  display: inline-block; 
+  margin: 25px 10px;
+  font-size: 25px;
+}
+a{
+  border-bottom:3px solid white;
+  border-radius: 5px;
+  padding: 5px 10px;  
+  transition: .2s;
+}
+a.active,a:hover{
+  border-bottom:3px solid red;
+  transition: .2s;
+}
